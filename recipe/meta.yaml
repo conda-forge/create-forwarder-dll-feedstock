@@ -14,7 +14,7 @@ build:
     - create-forwarder-dll = create_forwarder_dll:main
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
-  number: 0
+  number: 1
 
 requirements:
   host:
@@ -24,6 +24,7 @@ requirements:
     - pip
   run:
     - python >={{ python_min }}
+    - setuptools
 
 test:
   imports:
