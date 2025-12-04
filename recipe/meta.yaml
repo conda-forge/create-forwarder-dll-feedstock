@@ -1,4 +1,4 @@
-{% set version = "0.9" %}
+{% set version = "0.10" %}
 
 package:
   name: create-forwarder-dll
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/c/create-forwarder-dll/create_forwarder_dll-{{ version }}.tar.gz
-  sha256: d25f8b694761c56abd067fedb6601c1f417887e403cd5b6b7b5c30439d7e06cb
+  sha256: 57b316492486e31d9d4160ddb5e44511335195d696310896aada34a0dc19d7ec
 
 build:
   entry_points:
